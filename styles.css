@@ -21,6 +21,7 @@
 h1, h2 {
     text-align: center;
     font-family: cursive;
+    color: darkblue;
 }
 
 h2{                     
@@ -28,9 +29,7 @@ h2{
     animation: float .1s ease-in-out infinite;
 }
 
-h2, .center{
-    color: darkblue;
-}
+
 
 p {
     font-family: Verdana, 'Geneva', Tahoma, sans-serif;
@@ -46,7 +45,7 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;
-    /* overflow: hidden; */
+    overflow: hidden;
     font-size: medium;
 }
 .jiggle {
