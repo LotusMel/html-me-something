@@ -1,21 +1,38 @@
-.title {
-    font-family: bold 15px cursive;
+article{
+    margin: 5%;
 }
+
+.horror{
+    font-size: 2em;
+}
+
+.intro, .epilogue {
+    font-family: cursive;
+    font-size: 1.5em;
+}
+
+.pins {
+    
+    padding: .5em;
+}
+
 .caption{
     font-family: 'Lucida Sans';
     font-size: small;
 }
-
-.describe{
+figure{
+    padding: 1em;
+}
+figcaption{
     font-family: 'Lucida Sans';
-    font-size: x-small;
+    font-size: small;
 }
 
-.columns {
+.columns, .columns1, .columns2 {
     columns: 20px 2;
    
     margin: auto;
-    width:  50em;
+    width:  75em;
     text-align: justify
  }
 h1, h2 {
@@ -26,14 +43,15 @@ h1, h2 {
 
 h2{                     
     
-    animation: float .1s ease-in-out infinite;
+    animation: float .5s ease-in-out infinite;
 }
 
 
 
-p {
+div {
     font-family: Verdana, 'Geneva', Tahoma, sans-serif;
     font-weight: 500;
+    margin: auto;
 }
 
 body {
@@ -73,7 +91,7 @@ header {
     }
 }
 header:hover span {
-    animation: bounce .4s;
+    animation: bounce .3s;
 }
 @keyframes bounce {
     0%,100% {
