@@ -1,3 +1,6 @@
+a {
+    color: rgba(14, 14, 121, 0.986);
+}
 article{
     margin: 5%;
 }
@@ -56,7 +59,7 @@ div {
 
 body {
     background-image: -webkit-linear-gradient(to bottom right, rgb(6, 11, 12), rgb(63, 66, 66), rgb(89, 90, 90), rgb(137, 141, 141));
-    background-image: linear-gradient(to bottom right, rgb(213, 210, 216), rgb(100, 101, 102), rgb(69, 65, 73), rgb(11, 6, 26))
+    background-image: linear-gradient(to top right, rgb(213, 210, 216), rgb(100, 101, 102), rgb(69, 65, 73), rgb(11, 6, 26))
 }
 
 header {
